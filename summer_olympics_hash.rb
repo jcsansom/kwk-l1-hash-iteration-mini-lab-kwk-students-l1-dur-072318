@@ -6,7 +6,7 @@ def add_a_key_value_pair
   create_olympics_hash[:Atlanta]="1996"
 end
 
-add_a_key_value_pair
+puts add_a_key_value_pair
 
 # def summer_olympics
 # create_olympics_hash.each do |summer_olympics, date|
