@@ -20,8 +20,8 @@ end
 
 puts summer_olympics
 
-# def upcased_cities
-# create_olympics_hash.each_key {|summer_olympics| puts summer_olympics.upcase}
-# end
+def upcased_cities
+create_olympics_hash.each_key {|summer_olympics| puts summer_olympics.upcase}
+end
 
-# puts upcased_cities
+puts upcased_cities
