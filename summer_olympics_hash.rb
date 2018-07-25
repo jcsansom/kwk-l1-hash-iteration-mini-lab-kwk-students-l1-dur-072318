@@ -3,7 +3,9 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
-  create_olympics_hash[:Atlanta]="1996"
+  new_olympics_hash=create_olympics_hash
+  new_olympics_hash[:Atlanta]="1996"
+  new_olympics_hash
 end
 
 puts add_a_key_value_pair
